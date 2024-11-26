@@ -1,0 +1,92 @@
+/* Universal reset for margins, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font,background image and background color for the body */
+body {
+    background-image: url("../Images/adminlogin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+
+/*styles for admin login page*/
+
+/*Fieldset stying for the admin login*/
+fieldset{
+    border:1px solid #657c82;
+    width:450px;
+    height:450px;
+    margin-top: 80px;
+    margin-bottom: 85px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: auto;
+    padding-right: auto;
+
+    /*blur the background image within fieldset*/
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: #171D2EC0;
+
+    border-radius: 10px;
+}
+
+/*style the heading*/
+.heading{
+    color:#fff;
+}
+
+/*align the content in the login form*/
+#align{
+    margin-left:100px;
+    color:#fff;
+    font-weight: bold;
+
+}
+
+/*style the text boxes in the login form of the admin login page*/
+#boxsize1,#boxsize2{
+    border:none;
+    background-color: #fff;
+    color:#596c72;
+    width:250px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+/*style the login button in admin login page*/
+#loginbutton{
+    border:1px solid #2a3439;
+    width:150px;
+    height: 30px;
+    padding:auto;
+    border:none;
+    border-radius: 5px;
+    background-color: #1e65a6;
+    color:#fff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/*add effects to the login button*/
+#loginbutton:hover {
+    background-color: #fff; /* White background on hover */
+    color: #1e65a6; /* Text turns blue on hover */
+}
+
+/*align the content on the help links*/
+#help{
+    margin-top: 10px;
+    margin-left: 165px;;
+}

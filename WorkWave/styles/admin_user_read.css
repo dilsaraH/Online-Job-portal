@@ -1,0 +1,133 @@
+/* Universal reset for margins, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font, background image and background color for the body */
+body {
+    background-image: url("../Images/admin_user.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Styling for the header, sets background color */
+header {
+    background-color: #2a3439; /* Gunmetal Gray */
+    padding: 15px 0;
+}
+
+/* Flexbox for navbar layout: space between logo and nav links */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px; /* Space around the navbar */
+}
+
+/* Logo styling */
+.logo img {
+    height: 50px; /* Control the size of the logo */
+}
+
+/* Navigation links styling */
+.nav-links {
+    list-style: none; /* Remove bullets from the list */
+    display: flex;
+    gap: 20px; /* Spacing between links */
+}
+
+/* Styling for individual navigation links */
+.nav-links li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text for links */
+    font-size: 16px;
+    padding: 8px 12px; /* Padding for better click area */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for navigation links */
+.nav-links li a:hover {
+    background-color: #1d5494; /* Lighter blue on hover */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Main content styles */
+#content {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Heading styles */
+h1 {
+    color: #2a3439; /* Dark gray color */
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+#para {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #2a3439; /* Same color as heading */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: #ffffff; /* White background for the table */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #2a3439; /* Dark header */
+    color: #fff; /* White text for table headers */
+    text-transform: uppercase; /* Uppercase text */
+    font-weight: bold;
+}
+
+table td {
+    color: #2a3439; /* Dark text for table data */
+}
+
+table tr:hover {
+    background-color: #f4f4f4; /* Light hover effect for rows */
+}
+
+/* Button styles */
+input[type="button"] {
+    padding: 10px 15px;
+    background-color: #1e65a6; /* Primary blue color */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #144674; /* Darker blue on hover */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

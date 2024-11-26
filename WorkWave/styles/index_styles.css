@@ -1,0 +1,89 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../Images/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+/* Main Section Styling */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Job Explore Section Styling */
+.job-explore, .about-workwave {
+    margin-bottom: 40px;
+    background-color: hsla(0, 0%, 100%, 0.619);
+    border-radius: 10px;
+    padding: 40px;
+    width:auto
+}
+
+h2 {
+    font-size: 32px;
+    color: #2a3439;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.job-explore, .about-workwave {
+    transition: ease 0.3s;
+}
+
+.job-explore:hover, .about-workwave:hover {
+    background-color: hsl(0, 0%, 100%);
+    transition: ease 0.3s;
+    transform: scale(1.1);
+}
+
+/* Buttons */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1d5494;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    color:#000;
+    background-color: #f4f4f4;
+}
+
+/* Specific Button IDs */
+#explore-jobs-btn {
+    background-color: #1a7f8b;
+}
+
+#explore-jobs-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#more-btn {
+    background-color: #1d5494;
+}
+
+#more-btn:hover {
+    background-color: #000;
+    color: #fff;
+}

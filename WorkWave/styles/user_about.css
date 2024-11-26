@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../Images/about.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+}
+
+#all {
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.95);
+  margin: 20px auto;
+  max-width: 1200px;
+  border-radius: 10px;
+}
+
+.about {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  color: #0078a0;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.info-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.box {
+  width: 30%;
+  min-width: 250px;
+  padding: 20px;
+  background-color: rgba(0, 120, 160, 0.85);
+  color: #f4f4f4;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  transition: 0.5s ease;
+  text-align: center;
+}
+
+.box h2 {
+  font-size: 1.5rem;
+  color: #f4f4f4;
+  margin-bottom: 15px;
+}
+
+.box p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #f4f4f4;
+}
+
+.box:hover {
+  background-color: rgba(0, 100, 140, 0.9);
+  transform: scale(1.05);
+}
+
+.team-image {
+  width: 80%; 
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.box-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 15px;
+}

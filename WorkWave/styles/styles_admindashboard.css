@@ -1,0 +1,61 @@
+body{
+    background-image: url('../Images/adminmanage.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* style heading */
+#welcome{
+    color: #2a3439;
+    margin-top:10px;
+    margin-left:30px;
+}
+
+/* style div box in the admin dashboard*/
+#box{
+    border:none;
+    margin-left:80px;
+    margin-right: auto;
+    padding-top:80px;
+    margin-top: 80px;
+    margin-bottom: 75px;
+    height:250px;
+    width:400px;
+    text-align: center;
+    border-radius:10px;
+    font-size:25px;
+    font-weight:bold;
+    color: #fff;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color:#253846BF;
+    display:inline-block;
+    transition: background-color 0.7s ease;
+    transition: 0.3s ease;
+}
+
+#box:hover{
+    color:#2a3439;
+    background-color: #f4f4f4;
+    transform: scale(1.1);
+}
+
+/* Style the buttons of the admin dashboard*/
+#mybutton{
+    width:150px;
+    height:30px;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    color:#fff;
+    background-color:#1e65a6;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+/* Add hover effects to buttons to admin dashboard*/
+#mybutton:hover{
+    color:#1e65a6;
+    background-color: #fff;
+}

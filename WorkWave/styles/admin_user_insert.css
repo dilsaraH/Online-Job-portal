@@ -1,0 +1,162 @@
+/* Universal reset for margins, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font, background image and background color for the body */
+body {
+    background-image: url("../Images/admin_user.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Styling for the header, sets background color */
+header {
+    background-color: #2a3439; /* Gunmetal Gray */
+    padding: 15px 0;
+}
+
+/* Flexbox for navbar layout: space between logo and nav links */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px; /* Space around the navbar */
+}
+
+/* Logo styling */
+.logo img {
+    height: 50px; /* Control the size of the logo */
+}
+
+/* Navigation links styling */
+.nav-links {
+    list-style: none; /* Remove bullets from the list */
+    display: flex;
+    gap: 20px; /* Spacing between links */
+}
+
+/* Styling for individual navigation links */
+.nav-links li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text for links */
+    font-size: 16px;
+    padding: 8px 12px; /* Padding for better click area */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for navigation links */
+.nav-links li a:hover {
+    background-color: #1d5494; /* Lighter blue on hover */
+    border-radius: 4px; /* Rounded corners */
+}
+
+
+/* Footer styling */
+footer {
+    background-color: #2a3439; /* Dark blue background same as header */
+    color: #fff; /* White text */
+    padding: 20px 50px; /* Padding for content spacing */
+    text-align: center; /* Center-align text and content */
+}
+
+/* Footer content layout */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #1e65a6; /* Thin blue line separating footer sections */
+}
+
+/* Footer logo styling */
+.footer-logo img {
+    height: 40px; /* Adjust logo size for footer */
+}
+
+/* Footer links styling */
+.footer-links ul {
+    list-style: none; /* Remove bullets */
+    display: flex;
+    gap: 15px; /* Space between links */
+}
+
+.footer-links li a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text */
+    font-size: 14px;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Footer links hover effect */
+.footer-links li a:hover {
+    color: #1e65a6; /* Blue on hover */
+}
+
+/* Footer bottom section */
+.footer-bottom {
+    margin-top: 15px;
+    font-size: 12px; /* Small font for the copyright */
+    color: #b0b0b0; /* Light gray for copyright text */
+}
+/* Form container styling */
+.form-container {
+    max-width: 600px; /* Maximum width of the form */
+    margin: 40px auto; /* Center the form horizontally and add some vertical space */
+    padding: 20px; /* Padding inside the form container */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for a slight lift effect */
+}
+
+/* Form heading styling */
+h1 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #2a3439; /* Same color as the header */
+}
+
+/* Individual form group styling */
+.form-group {
+    margin-bottom: 15px; /* Space below each input group */
+}
+
+/* Label styling */
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+    color: #2a3439; /* Same color as the header */
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #1e65a6; /* Button background color */
+    color: #fff; /* White text color */
+    padding: 10px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    width: 100%; /* Full width for the button */
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+    background-color: #144674; /* Darker shade on hover */
+}

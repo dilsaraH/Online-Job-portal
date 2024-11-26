@@ -1,0 +1,53 @@
+/* Universal reset for margins, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font and background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Styling for the header, sets background color */
+header {
+    background-color: #2a3439; /* Gunmetal Gray */
+    padding: 15px 0;
+}
+
+/* Flexbox for navbar layout: space between logo and nav links */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px; /* Space around the navbar */
+}
+
+/* Logo styling */
+.logo img {
+    height: 50px; /* Control the size of the logo */
+}
+
+/* Navigation links styling */
+.nav-links {
+    list-style: none; /* Remove bullets from the list */
+    display: flex;
+    gap: 20px; /* Spacing between links */
+}
+
+/* Styling for individual navigation links */
+.nav-links li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text for links */
+    font-size: 16px;
+    padding: 8px 12px; /* Padding for better click area */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for navigation links */
+.nav-links li a:hover {
+    background-color: #1d5494; /* Lighter blue on hover */
+    border-radius: 4px; /* Rounded corners */
+}

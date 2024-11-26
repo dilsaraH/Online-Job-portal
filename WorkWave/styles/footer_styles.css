@@ -1,0 +1,59 @@
+/* Universal reset for margins, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font and background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+}
+/* Footer styling */
+footer {
+    background-color: #2a3439; /* Dark blue background same as header */
+    color: #fff; /* White text */
+    padding: 20px 50px; /* Padding for content spacing */
+    text-align: center; /* Center-align text and content */
+}
+
+/* Footer content layout */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #1e65a6; /* Thin blue line separating footer sections */
+}
+
+/* Footer logo styling */
+.footer-logo img {
+    height: 40px; /* Adjust logo size for footer */
+}
+
+/* Footer links styling */
+.footer-links ul {
+    list-style: none; /* Remove bullets */
+    display: flex;
+    gap: 15px; /* Space between links */
+}
+
+.footer-links li a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text */
+    font-size: 14px;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Footer links hover effect */
+.footer-links li a:hover {
+    color: #1e65a6; /* Blue on hover */
+}
+
+/* Footer bottom section */
+.footer-bottom {
+    margin-top: 15px;
+    font-size: 12px; /* Small font for the copyright */
+    color: #b0b0b0; /* Light gray for copyright text */
+}

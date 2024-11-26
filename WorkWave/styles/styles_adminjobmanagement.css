@@ -1,0 +1,185 @@
+/* Universal reset for margins, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font,background image and background color for the body */
+body {
+    background-image: url("../Images/managebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Styling for the header, sets background color */
+header {
+    background-color: #2a3439; /* Gunmetal Gray */
+    padding: 15px 0;
+}
+
+/* Flexbox for navbar layout: space between logo and nav links */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px; /* Space around the navbar */
+}
+
+/* Logo styling */
+.logo img {
+    height: 50px; /* Control the size of the logo */
+}
+
+/* Navigation links styling */
+.nav-links {
+    list-style: none; /* Remove bullets from the list */
+    display: flex;
+    gap: 20px; /* Spacing between links */
+}
+
+/* Styling for individual navigation links */
+.nav-links li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text for links */
+    font-size: 16px;
+    padding: 8px 12px; /* Padding for better click area */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for navigation links */
+.nav-links li a:hover {
+    background-color: #1d5494; /* Lighter blue on hover */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Profile link styling on the right side */
+.profile a {
+    padding: 8px 12px;
+}
+
+
+
+/*style greeting heading of jobmanagement page*/
+#content{
+    color:#2A2A2A;
+    margin-top: 16px;
+    text-align: center;
+}
+
+/*style greeting paragrapn of jobmanagement page*/
+#para{
+    margin-left: 200px;
+    width:1200px;
+    height:100px;
+    font-size: 20px;
+}
+
+/*style Table of jobmanagement page*/
+#divtable{
+    text-align: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+/*style Buttons of jobmanagement page*/
+#action{
+    width:100px;
+    height: 30px;
+    border:none;
+    border-radius:5px;
+    margin-bottom: 10px;
+    color:#fff;
+    font-weight: bold;
+    background-color: #1e65a6;
+    transition: background-color 0.3s ease;
+    cursor:pointer;
+}
+
+/*Add hover effects to buttons*/
+#action:hover{
+    color: #1e65a6;
+    background-color: #fff;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(232, 235, 240, 0.43);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #2a3439; /* Dark header */
+    color: #fff; /* White text for table headers */
+    text-transform: uppercase; /* Uppercase text */
+    font-weight: bold;
+}
+
+table td {
+    color: #2a3439; /* Dark text for table data */
+}
+
+/* Footer styling */
+footer {
+    background-color: #2a3439; /* Dark blue background same as header */
+    color: #fff; /* White text */
+    padding: 20px 50px; /* Padding for content spacing */
+    text-align: center; /* Center-align text and content */    
+}
+
+/* Footer content layout */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #1e65a6; /* Thin blue line separating footer sections */
+}
+
+/* Footer logo styling */
+.footer-logo img {
+    height: 40px; /* Adjust logo size for footer */
+}
+
+/* Footer links styling */
+.footer-links ul {
+    list-style: none; /* Remove bullets */
+    display: flex;
+    gap: 15px; /* Space between links */
+}
+
+.footer-links li a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text */
+    font-size: 14px;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Footer links hover effect */
+.footer-links li a:hover {
+    color: #1e65a6; /* Blue on hover */
+}
+
+/* Footer bottom section */
+.footer-bottom {
+    margin-top: 15px;
+    font-size: 12px; /* Small font for the copyright */
+    color: #b0b0b0; /* Light gray for copyright text */
+}

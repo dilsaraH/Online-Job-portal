@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url("../Images/user_login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 40px; /* Increased padding for more space */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Increased width */
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px; /* Increased margin for better spacing */
+    font-size: 24px; /* Increased font size */
+}
+
+.input-group {
+    margin-bottom: 20px; /* Increased margin for more spacing */
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 16px; /* Increased font size for better readability */
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px; /* Increased padding for better input field size */
+    font-size: 16px; /* Increased font size */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #1d5494;
+    color: white;
+    padding: 12px; /* Increased padding for larger button */
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+}
+
+.btn:hover {
+    background-color: #102f52;
+}
+
+.signup-link {
+    margin-top: 15px;
+    font-size: 16px; /* Increased font size for better readability */
+}
+
+.signup-link a {
+    color: #1d5494;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

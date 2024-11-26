@@ -1,0 +1,383 @@
+/* Universal reset for margins, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font and background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Styling for the header, sets background color */
+header {
+    background-color: #2a3439; /* Gunmetal Gray */
+    padding: 15px 0;
+}
+
+/* Flexbox for navbar layout: space between logo and nav links */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px; /* Space around the navbar */
+}
+
+/* Logo styling */
+.logo img {
+    height: 50px; /* Control the size of the logo */
+}
+
+/* Navigation links styling */
+.nav-links {
+    list-style: none; /* Remove bullets from the list */
+    display: flex;
+    gap: 20px; /* Spacing between links */
+}
+
+/* Styling for individual navigation links */
+.nav-links li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text for links */
+    font-size: 16px;
+    padding: 8px 12px; /* Padding for better click area */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for navigation links */
+.nav-links li a:hover {
+    background-color: #1d5494; /* Lighter blue on hover */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Profile link styling on the right side */
+.profile a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text */
+    font-size: 16px;
+    padding: 8px 12px;
+    background-color: #1e65a6; /* Blue background for profile */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for the profile link */
+.profile a:hover {
+    background-color: #fff; /* White background on hover */
+    color: #1e65a6; /* Text turns blue on hover */
+}
+/* Footer styling */
+footer {
+    background-color: #2a3439; /* Dark blue background same as header */
+    color: #fff; /* White text */
+    padding: 20px 50px; /* Padding for content spacing */
+    text-align: center; /* Center-align text and content */
+}
+
+/* Footer content layout */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #1e65a6; /* Thin blue line separating footer sections */
+}
+
+/* Footer logo styling */
+.footer-logo img {
+    height: 40px; /* Adjust logo size for footer */
+}
+
+/* Footer links styling */
+.footer-links ul {
+    list-style: none; /* Remove bullets */
+    display: flex;
+    gap: 15px; /* Space between links */
+}
+
+.footer-links li a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text */
+    font-size: 14px;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Footer links hover effect */
+.footer-links li a:hover {
+    color: #1e65a6; /* Blue on hover */
+}
+
+/* Footer bottom section */
+.footer-bottom {
+    margin-top: 15px;
+    font-size: 12px; /* Small font for the copyright */
+    color: #b0b0b0; /* Light gray for copyright text */
+}
+
+/* Main content section */
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px; /* Space between the image and the form */
+    padding: 50px 20px;
+    background-color: #fff; /* White background */
+    max-width: 1000px; /* Set maximum width */
+    margin: 0 auto; /* Center the section */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+/* Image section styling */
+.image-section img {
+    max-width: 400px; /* Maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */  
+}
+
+/* Styling for contact info under the image */
+.contact-info {
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.contact-info h1 {
+    margin: 5px 0;
+    font-size: 28px;
+    font-style:oblique;
+    color:#191970; /* Midnight blue, mysterious and elegant */
+ 
+}
+
+/* Style for contact icons */
+.contact-info p {
+     display: flex;
+    align-items: center;  /* Align the icon and text vertically */
+    margin-bottom: 15px;
+}
+
+/* Style for contact icons */
+.contact-icon1{
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;  /* Space between the icon and text */
+    vertical-align: middle;
+}
+
+.contact-icon2{
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;  /* Space between the icon and text */
+    vertical-align: middle;
+}
+
+.contact-icon3{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;  /* Space between the icon and text */
+    vertical-align: middle;
+}
+
+.contact-info a {
+    color: #4169E1;  /* Color for the Facebook link */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* For responsive layout, ensuring icons adjust on smaller screens */
+@media (max-width: 768px) {
+    .contact-info p {
+        font-size: 14px; /* Slightly smaller font for smaller screens */
+    }
+
+    .contact-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+/* Form section */
+.form-section {
+    max-width: 500px; /* Limit the width of the form */
+    flex: 1; /* Allow the form section to grow */
+}
+
+/* Introduction text styling */
+.form-section .intro h1{
+    color: #3B3C36 /* Black Olive */
+    font-family 'Roboto', sans-serif; 
+    font-size: 40px;
+}
+
+.form-section .intro h2{
+    color: #3B3C36 /* Black Olive */
+    font-family 'Roboto', sans-serif; 
+    font-size: 35px;
+}
+
+.form-section .intro p {
+    font-size: 16px;
+    font-style: italic;
+    color: #696969; /*Dim gray */
+    margin-bottom: 20px;
+}
+
+/* Styling for the form */
+.form-section form {
+    display: flex;
+    flex-direction: column; /* Stack the form elements vertically */
+    gap: 15px; /* Space between form elements */
+}
+
+
+/* Form labels */
+.contact label {
+    font-size: 14px;
+    color: #333; /* Darker text color */
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Placeholder styling */
+::placeholder {
+    font-style: italic; /* Italicize the placeholder */
+    color: #999; /* Lighter gray color */
+}
+
+/* Submit button styling */
+.contact button[type="submit"] {
+    background-color: #1e65a6; /* Blue button background */
+    color: #fff; /* White text */
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for submit button */
+.contact button[type="submit"]:hover {
+    background-color: #164a80; /* Darker blue on hover */
+}
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+/*My list page style */
+
+
+.message-list-section {
+    max-width: 800px; /* Adjust for centering */
+    margin: 20px auto; /* Centers section */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Allows section to grow and take space */
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif; /* Use the imported Google Font */
+    font-size:35px;
+    text-align: center; /* Center the title */
+    margin-bottom: 35px; /* Added margin for spacing */
+}
+
+.message {
+    border-bottom: 20px solid #ddd;
+    padding: 15px 20px; /* Increased left/right padding */
+    margin-bottom: 20px; /* Increased margin between messages */
+    background: #f9f9f9; /* Optional: Add a background for better visibility */
+    border-radius: 5px; /* Optional: Rounded corners for messages */
+}
+
+.message p {
+    margin: 30px 0;
+   
+}
+
+.message .buttons {
+    margin-top: 30px;
+}
+
+.button {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button.update {
+    background-color: #007bff;
+    color: white;
+}
+
+.button.delete {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 10px solid #888;
+    width: 80%; 
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.footer-bottom {
+    padding:20px 0;
+}
+
+/* Ensures the footer stays at the bottom */
+footer {
+    margin-top: auto;
+}
+
